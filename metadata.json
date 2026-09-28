@@ -1,0 +1,6 @@
+{
+  "name": "Qdf — Artiste musical officiel",
+  "description": "Site officiel de Qdf, artiste musical indépendant. Découvrez le titre Éternel souvenir et retrouvez les liens officiels et contacts professionnels de l'artiste.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

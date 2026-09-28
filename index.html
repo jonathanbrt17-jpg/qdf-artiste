@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qdf — Artiste musical officiel</title>
+    <meta name="description" content="Site officiel de Qdf, artiste musical. Découvrez Éternel souvenir et retrouvez les liens officiels de l’artiste." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Qdf" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="music.song" />
+    <meta property="og:title" content="Qdf — Artiste musical officiel" />
+    <meta property="og:description" content="Site officiel de Qdf, artiste musical. Découvrez Éternel souvenir et retrouvez les liens officiels de l’artiste." />
+    <meta property="og:image" content="/assets/cover.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Qdf — Artiste musical officiel" />
+    <meta name="twitter:description" content="Site officiel de Qdf, artiste musical. Découvrez Éternel souvenir et retrouvez les liens officiels de l’artiste." />
+    <meta name="twitter:image" content="/assets/cover.jpg" />
+
+    <link rel="icon" type="image/jpeg" href="/assets/cover.jpg" />
+
+    <!-- Google Fonts for luxury musical typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD Structured Data for Music Artist -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MusicGroup",
+          "@id": "#qdf-music",
+          "name": "Qdf",
+          "description": "Artiste musical indépendant.",
+          "genre": "Musique contemporaine",
+          "email": "jonathanbrt17@gmail.com",
+          "image": "/assets/cover.jpg",
+          "track": {
+            "@type": "MusicRecording",
+            "name": "Éternel souvenir",
+            "byArtist": {
+              "@type": "MusicGroup",
+              "name": "Qdf"
+            },
+            "image": "/assets/cover.jpg"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#0a0a0c] text-[#f2f2f3] antialiased selection:bg-[#c49b66]/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
